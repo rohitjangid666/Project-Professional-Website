@@ -1,0 +1,217 @@
+body{
+    padding: 0;
+    margin: 0;
+    height: 100vh;
+    width: 100%;
+}
+
+.main-banner{
+    padding-top: 150px;
+    padding-bottom: 100px;
+    background-image: url(../img/Banner.jpg);
+    background-size: cover;
+    color: white;
+}
+
+
+/* Navbar Start */
+.custom_nav{
+    font-size: small;
+    box-shadow: 0px 2px 28px rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(5px);
+}
+.custom_nav ul.dropdown-menu{
+    font-size: small;
+}
+/* Navbar End */
+
+
+/* Search Start */
+.form{
+    position: relative;
+    transition: all 1s;
+    width: 40px;
+    height: 40px;
+    background: white;
+    box-sizing: border-box;
+    border-radius: 25px;
+    border: 4px solid white;
+    padding: 5px;
+}
+.input{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;;
+    height: 30.5px;
+    line-height: 30px;
+    outline: 0;
+    border: 0;
+    display: none;
+    font-size: 1em;
+    border-radius: 20px;
+    padding: 0 20px;
+}
+.search_button{
+    box-sizing: border-box;
+    padding: 9px;
+    width: 34px;
+    height: 34px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    border-radius: 50%;
+    color:black;
+    text-align: center;
+    font-size: 1.2em;
+    transition: all 1s;
+}
+.form:hover{
+    width: 250px;
+    cursor: pointer;
+}
+.form:hover input{
+    display: block;
+}
+.form:hover .fa{
+    background: black;
+    color: white;
+}
+/* Search End */
+
+
+/* Register Start */
+.custom-divider{
+    height: 5px;
+    background: rgb(223,214,26);
+    background: linear-gradient(90deg, rgba(223,214,26,1) 0%,  25%, rgba(226,113,113,1) 50%, rgba(105,201,90,1) 75%, rgba(0,212,255,1) 100%);
+}
+/* Register End */
+
+.feature-holder{
+    text-align: center;
+    margin-bottom: 25px;
+}
+section.features{
+    padding-top: 35px;
+    padding-bottom: 25px;
+    background-color: whitesmoke;
+}
+.feature-holder h3{
+    font-size: 1.2em;
+}
+.feature-holder p{
+    font-size: 14px;
+}
+section.online-courses, .classroom-training, .reviews-slider, .page-content{
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+.online-courses-text-widget, .classroom-courses-text-widget, .review-text-widget{
+    text-align: center;
+}
+.online-courses-text-widget h2, .classroom-courses-text-widget h2, .review-text-widget h2{
+    font-size: 1.3em;
+}
+.online-courses-text-widget p, .classroom-courses-text-widget p, .review-text-widget p{
+    font-size: 14px;
+}
+.online-course-card, .review-text-widget{
+    text-align: center;
+    margin-bottom: 25px;
+}
+.online-course-card .card-title{
+    font-size: 1.2em;
+    line-height: 25px;
+}
+
+.card.online-course-card .card-text{
+    font-size: 14px;
+}
+.classroom-training, .page-content{
+    background-color: whitesmoke;
+}
+.reviews-slider{
+    background-color: #ececec;
+}
+.sign-up-form-sidebar .card-title{
+    font-size: 1.2em;
+}
+.sign-up-form-sidebar .card-text{
+    font-size: 14px;
+}
+.course-list-item{
+    color: black;
+    font-size: small;
+    padding-top: 20px;
+}
+#review_slider_content li .card{
+    text-align: center;
+}
+#review_slider_content li .card img{
+    width: 50px;
+    margin-bottom: 15px;
+}
+#review_slider_content li .card .card-title{
+    font-size: 18px;
+    font-weight: bold;
+}
+#review_slider_content li .card .star{
+    color: orange;
+    font-size: 14px;
+}
+#review_slider_content li .card .card-text{
+    font-size: 14px;
+}
+.main-footer{
+    background-color: black;
+    color: white;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+aside.footer-widget h5{
+    font-size: 16px;
+}
+aside.footer-widget{
+    margin-bottom: 25px;
+}
+aside.footer-widget ul{
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+aside.footer-widget ul li a{
+    text-decoration: none;
+    font-size: 14px;
+    display: inline-block;
+    margin-bottom: 5px;
+    color: #adadad;
+}
+aside.footer-widget ul li a:hover{
+    color: white;
+}
+address h2{
+    font-size: 20px;
+}
+address p{
+    font-size: 14px;
+    color: #adadad;
+}
+section.copy{
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: black;
+    color: white;
+    font-size: 14px;
+    text-align: center;
+}
+section.copy p{
+    margin: 0px;
+}
+.google-map{
+    padding-top: 56px;
+}
+.default-header{
+    padding-top: 56px;
+}
